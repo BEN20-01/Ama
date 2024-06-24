@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amadeco - Votre spécialiste en décoration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #444;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 1rem;
+        }
+        .showcase {
+            background: url('showcase.jpg') no-repeat center center/cover;
+            color: white;
+            height: 300px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 2rem 0;
+        }
+        .card {
+            background: white;
+            margin: 1rem;
+            padding: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 2rem);
+        }
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amadeco</h1>
+        <p>Votre spécialiste en décoration</p>
+    </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#testimonials">Témoignages</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="showcase">
+        <div class="container">
+            <h1>Bienvenue chez Amadeco</h1>
+            <p>Transformez votre espace avec notre décoration unique</p>
+        </div>
+    </section>
+    <section id="about" class="container">
+        <h2>À propos de nous</h2>
+        <p>Amadeco est une marque de décoration innovante, dédiée à apporter des touches uniques et élégantes à votre espace. Nous nous efforçons de créer des designs qui reflètent votre personnalité et votre style.</p>
+    </section>
+    <section id="gallery" class="container content">
+        <h2>Galerie de produits</h2>
+        <div class="card">
+            <h3>Produit 1</h3>
+            <img src="produit1.jpg" alt="Produit 1" style="width:100%">
+            <p>Description du produit 1.</p>
+        </div>
+        <div class="card">
+            <h3>Produit 2</h3>
+            <img src="produit2.jpg" alt="Produit 2" style="width:100%">
+            <p>Description du produit 2.</p>
+        </div>
+        <div class="card">
+            <h3>Produit 3</h3>
+            <img src="produit3.jpg" alt="Produit 3" style="width:100%">
+            <p>Description du produit 3.</p>
+        </div>
+    </section>
+    <section id="testimonials" class="container">
+        <h2>Témoignages</h2>
+        <div class="card">
+            <p>"Les produits Amadeco ont transformé mon salon. La qualité est exceptionnelle et le design est magnifique!"</p>
+            <p>- Client satisfait</p>
+        </div>
+        <div class="card">
+            <p>"J'adore la diversité des produits offerts par Amadeco. Ils ont quelque chose pour chaque style et chaque pièce."</p>
+            <p>- Client ravi</p>
+        </div>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contactez-nous</h2>
+        <p>Email : contact@amadeco.com</p>
+        <p>Téléphone : 01 23 45 67 89</p>
+        <p>Adresse : 123 Rue de la Décoration, 75000 Paris, France</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Amadeco. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
